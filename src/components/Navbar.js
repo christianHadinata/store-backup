@@ -9,7 +9,7 @@ const Navbar = () => {
           open ? "pb-16 md:pb-0" : ""
         } `}
       >
-        Hackathon Store
+        E-Commerce Store
       </div>
       <button
         className="md:hidden absolute right-8 top-5 w-5 h-5"
