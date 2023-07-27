@@ -3,11 +3,15 @@ import Navbar from "./components/Navbar";
 import AnimationCard from "./components/AnimationCard";
 import ProductCard from "./components/ProductCard";
 import ProductCategoryButton from "./components/ProductCategoryButton";
+import HomeBigImage from "./components/HomeBigImage";
 const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-36 ml-[117px]">
+      <div className="flex justify-center mt-[65px] ">
+        <HomeBigImage />
+      </div>
+      <div className=" mt-16 ml-[117px]">
         <ProductCategoryButton />
       </div>
 
