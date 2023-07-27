@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <Navbar />
       <div className="flex justify-around">
-        <div className="pt-36 grid md:grid-cols-6 grid-cols-2 md:gap-28 gap-16">
+        <div className="mt-36 grid md:grid-cols-6 grid-cols-2 md:gap-28 gap-16">
           <AnimationCard />
           <AnimationCard />
           <AnimationCard />
@@ -16,7 +16,7 @@ const App = () => {
           <AnimationCard />
         </div>
       </div>
-      <div className="flex justify-evenly pt-20 cursor-pointer">
+      <div className="flex justify-evenly mt-20 cursor-pointer">
         <ProductCard />
         <ProductCard />
         <ProductCard />
