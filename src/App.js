@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import AnimationCard from "./components/AnimationCard";
+import ProductCard from "./components/ProductCard";
 const App = () => {
   return (
     <div>
@@ -14,6 +15,14 @@ const App = () => {
           <AnimationCard />
           <AnimationCard />
         </div>
+      </div>
+      <div className="flex justify-evenly pt-20 cursor-pointer">
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </div>
     </div>
   );
