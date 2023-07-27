@@ -2,8 +2,8 @@ import React from "react";
 
 const ProductCard = () => {
   return (
-    <div className="w-[269px] h-[363px] inline-flex p-2.5 flex-col items-start gap-2 shadow-md bg-white">
-      <div className="bg-[#D9D9D9] w-[249px] h-[210px]"></div>
+    <div className="w-[269px] h-[363px] inline-flex p-2.5 flex-col items-start gap-2 shadow-md bg-white hover:bg-[#E6E6E6] cursor-pointer hover:scale-105 transform transition-all group ">
+      <div className="bg-[#D9D9D9] group-hover:bg-white w-[249px] h-[210px]"></div>
       <div className="flex w-60 flex-col items-start gap-1">
         <div className="text-[#9C9C9C] font-Poppins text-xs font-light leading-4">
           Category
@@ -20,8 +20,8 @@ const ProductCard = () => {
         <div className="text-black font-Poppins text-sm font-medium leading-4">
           0$
         </div>
-        <div className="flex w-14 py-1 px-2.5 justify-center items-center gap-2 flex-shrink-0 bg-[#CBF3FF]">
-          <div className="text-[#37CFFF] font-Poppins text-sm font-normal leading-4">
+        <div className="flex w-14 py-1 px-2.5 justify-center items-center gap-2 flex-shrink-0 bg-[#CBF3FF] hover:bg-[#37CFFF] text-[#37CFFF] hover:text-white group">
+          <div className=" font-Poppins text-sm font-normal leading-4 text-inherit">
             Buy
           </div>
           <svg
