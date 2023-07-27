@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
-    <header className="md:flex md:h-16 bg-white justify-around items-center flex-shrink-0 gap-64 shadow-lg">
+    <header className="md:flex md:h-16 bg-white justify-around items-center flex-shrink-0 gap-64 shadow-lg fixed top-0 w-full z-10">
       <div
         className={`md:flex md:h-8 px-5 pt-5  md:px-0 md:pt-0  justify-center items-center gap-2 font-Poppins text-base font-normal cursor-default relative ${
           open ? "pb-16 md:pb-0" : ""
